@@ -1,1 +1,5 @@
 # HW13_JusongCai
+
+In HW13, I wrote a camera app for my Android device (MEIZU version 6.0). The app can identify the green shape and draw lines on top of it when pointing the camera at a green object. Core codes are under the directory "Project_Files/app/src/main": "MainActivity.java" controls the camera to detect green object with adjustable sensitivity; "activity_main.xml" contains the layout of text, view of the app; "AndroidManifest.xml" gives the app permission to use the camera. The sensitivity value displayed in the app is actually the reverse sensitivity, which means high value for low sensitivity and low value for high sensitivity.
+
+Results are shown in three screenshots with different sensitivity values and one demo video. Always remember high value for low sensitivity and low value for high sensitivity. As we can see from the screenshots, the app detects lots of green areas with 0 value (high sensitivity); the app detects reasonable green shapes with 50 value (moderate sensitivity); the app does not detect any green shapes with 100 value (low sensitivity). The demo video also illustrates that.
